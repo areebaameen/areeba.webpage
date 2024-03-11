@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    overflow-x: hidden; 
+}
+#home{
+    background-image: url(images/bgwall.webp); 
+    display: flex;
+    height: 580px;
+    background-size: cover;
+}
+#second-div{
+    background-color: grey;
+    opacity: 0.9;
+    flex-direction: row;
+    height: 50px; 
+    width: 100%;
+}
+#nav-li{
+    margin-left:10%;
+}
+.work{
+    text-decoration: none; 
+    color: white;
+}
+#nav-ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav-li{
+    list-style-type: none; 
+    margin-right: 7%;
+     margin-top: 1%;
+}
+.nav-li a:hover{
+    color: orange;
+}
+#nav-img{
+    width: 10%;
+    margin-left: 7%;
+}
+#nav-img:hover{
+    transform: scale(1.4);
+    transition: all 1s;
+}
+#pic{
+    margin-top: 57%;
+     margin-left: -145%;
+      border-radius: 109px;
+}
+#pic:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+#div-nav{
+    height: 12%;
+     margin-top: 18%;
+      margin-left: -92%;
+}
+#div-nav p{
+    text-decoration: underline;
+     text-decoration-color: orange;
+     font-size: 285%;
+}
+
+#div-nav-2{
+    margin-left: -32%;
+}
+#div-nav-2 a{
+    text-decoration: none;
+}
+#nav-radius{
+    color: white; 
+    background-color:orange;
+     border-radius: 29px; 
+     padding: 3%;
+     width: 13%;
+}
+#nav-radius:hover{
+    color: black;
+    background-color: white;
+}
+#about{
+    display: flex;
+     flex-flow: column wrap; 
+     width: 100%;
+     align-items: center;
+}
+#inner-1{
+    margin-top: 1%;
+}
+#about-heading{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+#icon{
+    margin-top: 2%;
+}
+#icon p{
+    text-align: center;
+}
+#download{
+    background-color: rgb(10, 147, 10);
+    color: white;
+    border-radius: 29px; 
+    padding: 1%;
+     width: 16%;
+}
+#download:hover{
+    background-color: white;
+    border: 1px solid green;
+}
+#download span:hover{
+    color: black;
+}
+#download a{
+    text-decoration: none;
+}
+#main-one{
+    background-color: rgb(126, 126, 126);
+    margin-top: 3%; 
+    padding: 2.5%;
+}
+#span-1{
+    color: white;
+}
+#skills{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+#large-div{
+    display: flex;
+    flex-flow: column wrap;
+    float: left; 
+    margin-left: 2%;
+}
+.div-0{
+    background-color: orange;
+    border-radius: 100%; 
+    width: 40px; 
+    height: 40px;
+}
+.div-1{
+    margin-top: 20%;
+}
+.div-1 pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+#special-div{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 50%;
+}
+#differ-div{
+    background-color: orange;
+    border-radius: 100%; 
+    width: 40px; 
+    height: 40px;
+    margin-right: -30%;
+}
+#slogan{
+    background-color:  rgb(126, 126, 126);
+    margin-top: 2%; 
+    padding: 2.5%;
+}
+#contact{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+#flex-2{
+    display: flex;
+     flex-flow: row wrap;
+      height: 150px;
+}
+.info{
+    width: 13%;
+    margin-left: 16%;
+}
+.info-2{
+    width: 23%;
+    margin-left: 20%;
+}
+#slogan-2{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.forms{
+    padding: 1%;
+    width: 30%;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+#textb{
+    height: 100px;
+}
+#msg-bar{
+    background-color: rgb(10, 147, 10); 
+    width: 11%; 
+    border-radius: 29px;
+    padding: 1%;
+}
+#msg-bar:hover{
+    background-color: white;
+    border: 1px green solid;
+}
+#msg-bar span:hover{
+    color: black;
+}
+#msg-bar a{
+    text-decoration: none;
+}
+#last-div{
+    background-color: rgb(117, 117, 117);
+    padding: 1%;
+}
+#last-div h2{
+    color: white; 
+    font-size: small;
+    margin-left: 2%;
+}
+.white{
+    color: white;
+}
+.orange{
+    color: orange;
+}
